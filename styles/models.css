@@ -1,0 +1,48 @@
+.models {
+    margin-top: 145px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.models__list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 80px;
+}
+
+.models__item {
+    position: relative;
+    width: fit-content;
+    height: fit-content;
+}
+
+.models__case-image {
+    position: relative;
+    max-width: 1150px;
+}
+
+.models__header {
+    position: absolute;
+    top: 50px;
+    left: 50px;
+}
+
+.models__case-image {
+    position: absolute;
+    bottom: 200px;
+    left: 50px;
+    max-width: 140px;
+    max-height: 140px;
+
+}
+
+.models__btn {
+    position: absolute;
+    bottom: 50px;
+    left: 50px;
+    width: 100%;
+    max-width: 420px;
+}

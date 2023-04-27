@@ -1,0 +1,38 @@
+.phone {
+    margin-top: 80px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: center;
+    gap: 30px;
+}
+
+.phone__header {
+    max-width: 560px;
+}
+.phone__nothing-phone {
+    position: relative;
+}
+
+.phone__image {
+    max-width: 560px;
+    height: 645px;
+    object-fit: cover;
+    border-radius: 30px;
+}
+
+.phone__header-nothing-phone {
+    position: absolute;
+    top: 50px;
+    left: 35px;
+    font-size: 45px;
+    line-height: 40px;
+    font-weight: 700;
+    letter-spacing: -0.05em;
+}
+
+.phone_negro-image {
+    position: absolute;
+    bottom: 50px;
+    left: 35px;
+}

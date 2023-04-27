@@ -1,0 +1,13 @@
+@import url(reset/reset.css);
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap");
+@import url(general.css);
+@import url(header.css);
+@import url(preview.css);
+@import url(models.css);
+@import url(phone.css);
+@import url(functions.css);
+@import url(trainings.css);
+@import url(technologies.css);
+@import url(gallery.css);
+@import url(contacts.css);
+@import url(footer.css);

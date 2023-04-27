@@ -1,0 +1,31 @@
+.trainings {
+    margin-top: 150px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.trainings__header {
+    max-width: 680px;
+    color: #FF25C2;
+
+}
+
+.trainings__functional-list {
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    gap: 80px;
+}
+
+.trainings__item {
+    max-width: 500px;
+    position: relative;
+}
+
+.trainings__paragraph {
+    margin-top: 20px;
+}

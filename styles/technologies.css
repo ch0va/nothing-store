@@ -1,0 +1,34 @@
+.technologies {
+  margin: 0 auto;
+  margin-top: 150px;
+  height: 105vh;
+  max-width: 1920px;
+  max-height: 1435px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: url(../resources/images/background/white-woman.png) center
+    center/cover no-repeat;
+}
+
+.technologies__header {
+  max-width: 1150px;
+  color: #fff;
+}
+
+.technologies__paragraph {
+  margin-top: 40px;
+  max-width: 940px;
+  font-size: 45px;
+  line-height: 40px;
+  font-weight: 700;
+  letter-spacing: -0.06em;
+  text-align: center;
+}
+
+.technologies__btn {
+  margin-top: 60px;
+  width: 100%;
+  max-width: 860px;
+}

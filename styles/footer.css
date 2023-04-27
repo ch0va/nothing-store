@@ -1,0 +1,40 @@
+.footer {
+  margin: 0 auto;
+  margin-top: 200px;
+  margin-bottom: 55px;
+}
+
+.footer__links-list {
+  display: flex;
+  flex-direction: row;
+  gap: 45px;
+  justify-content: center;
+}
+
+.footer_link {
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 22px;
+  color: white;
+  transition: 0.2s;
+}
+
+.footer_link:hover {
+  opacity: 0.5;
+  transition: 0.2s;
+}
+
+.footer__about-site {
+  margin: 0 auto;
+  margin-top: 75px;
+  display: flex;
+  width: 100%;
+  max-width: 1150px;
+  justify-content: space-between;
+}
+
+.footer__info {
+  font-size: 35px;
+  line-height: 42px;
+  color: #ff25c2;
+}

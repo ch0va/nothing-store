@@ -1,0 +1,37 @@
+.contacts {
+  margin-top: 75px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.contacts__list {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 30px;
+}
+
+.contacts__item {
+  z-index: 1;
+  width: 210px;
+  display: block;
+  color: #fff;
+  transition: 0.2s;
+  text-align: center;
+}
+
+.contacts__item:hover {
+  color: #ff25c2;
+  transition: 0.2s;
+}
+
+.contacts__link {
+  color: inherit;
+  display: block;
+  width: 100%;
+  font-size: 60px;
+  line-height: 45px;
+  text-decoration: none;
+}
+
