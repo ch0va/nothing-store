@@ -1,5 +1,4 @@
 .footer {
-  margin: 0 auto;
   margin-top: 200px;
   margin-bottom: 55px;
 }
@@ -9,6 +8,7 @@
   flex-direction: row;
   gap: 45px;
   justify-content: center;
+  text-transform: uppercase;
 }
 
 .footer_link {
@@ -37,4 +37,15 @@
   font-size: 35px;
   line-height: 42px;
   color: #ff25c2;
+}
+
+@media (max-width: 960px) {
+  .footer {
+    margin-top: 170px;
+    margin-bottom: 25px;
+  }
+
+  .footer__about-site {
+    margin-top: 55px;
+  }
 }

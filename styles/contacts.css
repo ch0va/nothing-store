@@ -1,11 +1,14 @@
 .contacts {
   margin-top: 75px;
+  width: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
+
 }
 
 .contacts__list {
+  width: 100%;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -13,8 +16,8 @@
 }
 
 .contacts__item {
-  z-index: 1;
-  width: 210px;
+  width: 100%;
+  max-width: 210px;
   display: block;
   color: #fff;
   transition: 0.2s;
@@ -33,5 +36,11 @@
   font-size: 60px;
   line-height: 45px;
   text-decoration: none;
+}
+
+@media (max-width: 960px) {
+  .contacts {
+    margin-top: 60px;
+  }
 }
 

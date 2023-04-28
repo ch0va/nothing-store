@@ -8,6 +8,7 @@
 }
 
 .phone__header {
+    width: 100%;
     max-width: 560px;
 }
 .phone__nothing-phone {
@@ -15,6 +16,7 @@
 }
 
 .phone__image {
+    width: 100%;
     max-width: 560px;
     height: 645px;
     object-fit: cover;
@@ -35,4 +37,22 @@
     position: absolute;
     bottom: 50px;
     left: 35px;
+}
+
+@media (max-width: 960px) {
+    .phone {
+        margin-top: 150px;
+        flex-wrap: wrap;
+        justify-content:end;
+        row-gap: 60px;
+    }
+
+    .phone__header{
+        max-width: 100%;
+        margin-right: 100px;
+    }
+    
+    .phone__image {
+        max-width: 100%;
+    }
 }

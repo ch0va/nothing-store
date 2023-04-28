@@ -1,18 +1,26 @@
 .technologies {
   margin: 0 auto;
   margin-top: 150px;
-  height: 105vh;
+  padding-bottom: 130px;
+  height: 100%;
   max-width: 1920px;
   max-height: 1435px;
+  background: url(../resources/images/background/white-woman.png) center
+    center/cover no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.technologies__container {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background: url(../resources/images/background/white-woman.png) center
-    center/cover no-repeat;
 }
 
 .technologies__header {
+  margin-top: 130px;
   max-width: 1150px;
   color: #fff;
 }
@@ -31,4 +39,18 @@
   margin-top: 60px;
   width: 100%;
   max-width: 860px;
+}
+
+@media (max-width: 960px) {
+  .technologies {
+    padding-bottom: 150px;
+  }
+  .technologies__header {
+    margin-top: 150px;
+  }
+
+  .technologies__paragraph {
+    margin-top: 30px;
+    max-width: 800px;
+  }
 }
