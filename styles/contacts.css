@@ -44,3 +44,18 @@
   }
 }
 
+@media (max-width: 780px) {
+  .contacts {
+    margin-top: 45px;
+  }
+
+  .contacts__link {
+    font-size: 25px;
+    line-height: 18px;
+  }
+
+  .contacts__list {
+    gap: 0;
+  }
+}
+

@@ -11,6 +11,7 @@
     width: 100%;
     max-width: 560px;
 }
+
 .phone__nothing-phone {
     position: relative;
 }
@@ -54,5 +55,23 @@
     
     .phone__image {
         max-width: 100%;
+    }
+}
+
+@media (max-width: 780px) {
+    .phone {
+        margin-top: 50px;
+        flex-wrap: wrap;
+        justify-content:center;
+        row-gap: 50px;
+    }
+
+    .phone__header{
+        max-width: 100%;
+        margin-right: 0;
+    }
+   
+    .phone_negro-image {
+        bottom: 45px;
     }
 }

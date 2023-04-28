@@ -31,6 +31,7 @@
   width: 100%;
   max-width: 1150px;
   justify-content: space-between;
+  font-weight: 700;
 }
 
 .footer__info {
@@ -47,5 +48,32 @@
 
   .footer__about-site {
     margin-top: 55px;
+  }
+}
+
+@media (max-width: 780px) {
+  .footer {
+    margin-top: 65px;
+    margin-bottom: 25px;
+  }
+
+  .footer__about-site {
+    margin-top: 55px;
+  }
+
+  .footer__links-list {
+    flex-direction: column;
+    text-align: center;
+    gap: 20px;
+  }
+
+  .footer__about-site {
+    justify-content: center;
+    gap: 10px;
+  }
+
+  .footer__info {
+    font-size: 22px;
+    line-height: 27px;
   }
 }

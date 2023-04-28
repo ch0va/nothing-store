@@ -31,3 +31,20 @@
     height: 90vh;
   }
 }
+
+@media (max-width: 780px) {
+  .functions {
+    background-position: right;
+    background: url(../resources/images/background/single-black.png) center center/cover
+    no-repeat;
+  }
+  .functions__info-block {
+    row-gap: 50px;
+    max-width: 400px;
+  }
+
+  .functions {
+    margin-top: 100px;
+    height: 65vh;
+  }
+}

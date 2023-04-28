@@ -54,4 +54,40 @@
     max-width: 420px;
 }
 
-@media (min-width: 992px) {}
+@media (max-width: 780px) {
+    .models {
+        margin-top: 135px;
+    }
+
+    .models__item {
+        height: 550px;
+    }
+
+    .models__list {
+        gap: 50px;
+    }
+
+    .models__header {
+        left: 15px;
+    }
+
+    .models__case-image {
+        display: none;
+    }
+
+    .models__btn {
+        position: absolute;
+        bottom: 40px;
+        width: calc(100% - 30px);
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+        padding: 25px 50px;
+        
+    }
+
+    .models__image {
+        height: 550px;
+        object-position: -200px;
+    }
+}

@@ -38,3 +38,9 @@
   width: 100%;
   transition: 0.4s;
 }
+
+@media (max-width: 780px) {
+  .header {
+    display: none;
+  }
+}
