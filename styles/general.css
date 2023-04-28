@@ -4,12 +4,16 @@ html {
   font-family: "inter";
   color: #fff;
   font-weight: 400;
-  z-index: 0;
+  position: relative;
 }
 
 button,
 input {
   font-family: inherit;
+}
+
+.body_active {
+  overflow: hidden;
 }
 
 .container {
